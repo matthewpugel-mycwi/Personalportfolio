@@ -1,0 +1,103 @@
+/*Matthew Pugel 9/13/2018*/
+
+/*Base Styles*/
+@import '_mixins.scss';
+
+/*HTML Styles */
+html {
+	font-size: 18pt;
+	background: url(/images/red_background.jpg);
+}
+
+/*Body Styles*/
+body {
+    border: 3px solid black
+}
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Nav styles*/
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px 20px;
+    overflow: hidden;
+    background: linear-gradient(325deg, rgb(228, 4, 4) 20%, rgb(0, 0, 0) 60%);
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 20px;
+    text-decoration: none;
+    border: #000000 solid;
+}
+
+nav a:link, a:visited {
+    color: rgb(218, 218, 218);
+}
+nav a:hover, nav a:active {
+    background-size: 100%;
+    color: rgb(244, 130, 130);
+}
+
+
+
+
+/*Main Styles*/
+main{
+   
+    padding: 10px;
+}
+
+main > h2 {
+    color: white;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+main > p {
+    color: white;
+}
+
+/*Footer Styles*/
+footer {
+    float: left;
+    font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		background-color: #000000;
+        overflow: auto;
+        color: white;
+}
+div.social > a > img  {
+    width: 10%;
+}
+
+/*tablet media query fun stuff */
+@media only screen and (min-width:641px) {
+	body header nav ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-justify-content: center;
+        justify-content: center;
+     }
+     
+     body header nav ul li {
+        -webkit-flex: 0 1 auto;
+        flex: 0 1 auto;
+     }
+  
+    
+}
+

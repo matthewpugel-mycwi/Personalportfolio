@@ -1,0 +1,422 @@
+/*Matthew Pugel 9/13/2018*/
+
+/*HTML Styles */
+html {
+	font-size: 18pt;
+	background: url(/images/red_background.jpg);
+}
+
+/*Page Body Styles */
+body {
+		
+}
+
+figure img {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+figure figcaption
+{
+	font-size: 1.2em;
+   margin: 5px 0px;
+   text-align: center;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for container centers the page and sets the element width */
+#container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+/* Style for the header specifies top and bottom margins, background color, rounded corners, and center-aligns content */
+header {
+	text-align: center;
+	font-family: Georgia, "Times New Roman", seriff;
+	font-size: 1.25em;
+}
+
+/* Style for the nav specifies text properties */
+nav {
+		font-family: Georgia, "Times New Roman", seriff;
+		font-size: 1.25em;
+		font-weight: bold;
+		text-align: center;
+		margin-top: 1em;
+		
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+		padding: 1em;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+		
+		border-radius: 4em;
+		list-style-type: none;
+		margin: 1em;
+		padding: 1em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+		background-color: #000000;	
+		text-decoration: none;
+		border-radius: 7px 7px 7px 10px;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+	display: none;
+}
+
+/* Style for main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+		display: block;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 1em;
+		margin-top: 0.5em;
+		padding: 1em;
+		border-radius: 2em 0 2em 0;
+		background-color: #808080;
+		opacity: 0.85;
+}
+
+/*Style for anchor elements within the main element*/
+main a {
+		
+		border-radius: 1em;
+		
+		font-weight: bold;
+		padding: 0.5em;
+		text-decoration: none;
+}
+
+ /* Style for footer specifies font size, text alignment, and top margin */
+footer {
+		font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		background-color: #00ced1;
+		overflow: auto;
+}
+
+/*Style for anchor elements within the footer */
+footer a {
+		
+		text-decoration: none;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+		display: none;
+}
+
+
+/*Style rule for input, select, and textarea form elements*/
+input, select, textarea {
+		display: block;
+		margin-bottom: 1em;
+}
+
+/*Style Rule for label element*/
+label {
+		display: block;
+}
+
+/*Style rule for unordered list within a form*/
+form ul {
+		list-style-type: none;
+}
+
+
+/*Style rule for the copyright div*/
+#copyright {
+		float: left;
+		margin-top: 2em;
+		width: 80%;
+}
+
+/*Style rule for social div*/
+#social {
+		float: right;
+		width: 20%;
+		
+}
+
+/* Style rule for social media icons */
+#social img {
+		padding: 0.5em;
+		
+}
+
+/*Media query for tablet viewport targets screen size with a minimum width of 660px */
+
+@media only screen and (min-width:660px) {
+	
+/* Style specifies a horizontal display for navigation links */
+nav li {
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;
+		white-space: nowrap;
+		border-radius: 0;
+		
+}
+
+/* Style specifies clear and top margin properties for the main element */
+main {
+		clear: left;
+		margin-top: 0.3em;
+		border-radius: 0;
+		overflow: auto;
+}
+
+/* Style specifies to hide the mobile class */
+.mobile {
+		display: inline;
+}
+
+/* Style specifies to display the desktop class */
+.desktop {
+		display: inline;
+}
+
+/*Style specifies a display, float, and padding for the equip class */
+.equip {
+		display: inline;
+		float: left;
+		margin-right: 1.5em;
+}
+
+/* Style specifies  a display, list style positions, and bottom margin for the items class. */
+.items {
+		display: block;
+		list-style-position: inside;
+}
+
+/* Style specifies to display the tablet class */
+.tablet {
+		display: block;
+		margin-top: -3em;
+		margin-bottom: -1em;
+}
+
+/* Style specifies a font weight and top margin for description list terms */
+dt {
+		font-weight: bold;
+		margin-top: 0.7em;
+}
+
+/*Style for h1 element*/
+h1 {
+		text-align: center;
+}
+
+
+/*Style for contact class*/
+.contact {
+		background-color: transparent;
+		
+		padding: 0;
+		text-decoration: underline;
+}
+
+
+
+/*Style for table element*/
+table {
+		border: 0.1em solid ;
+		border-collapse: collapse;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+}
+
+/*Style specifies border and padding for th and td elements*/
+th, td {
+		border: 0.1em solid;
+		padding: 1em;
+}
+
+/*Style for th element*/
+th {
+		
+}
+
+/*Style for caption element */
+caption {
+		font-size: 1.5em;
+		font-weight: bold;
+		padding-bottom: 0.5em;
+}
+
+/*Style ryle for label element*/
+label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 10em;
+}
+
+/*Style rule for btn class*/
+.btn {
+		margin-left: 12em;
+}
+
+}/*End tablet media query*/
+
+/* Media Query for desktop viewport targets screens with a minimum of 830px */
+
+@media only screen and (min-width: 830px) {
+
+/* Style specifies a width for container */
+#container {
+		
+}
+
+/*Style to left align header*/
+header {
+		text-align: left;
+}
+/* Style specifies margin and padding for the unordered list within the nav */
+nav ul {
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+}
+/*Style for nav specifies a float, margin, and width*/
+nav {
+		float: right;
+		margin-top: -7em;
+		margin-right: 3em;
+		margin-bottom: 0;
+		width: 65%;
+}
+
+/* Style for navigation list items specifies a border radius, border, margin, width, and padding*/
+nav li {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+}
+
+/* Style for navigation links specifies display and padding */
+nav li a {
+		display: inline-block;
+		padding: 0.9em;
+		
+}
+
+/* Style rules for pseudo-classes */
+nav li a:link {
+		color: #FFFFFF;
+}
+
+nav li a:visited {
+		color: #CCCCFF;
+}
+
+nav li a:hover {
+		color: #ffffff;
+		font-style: italic;
+}
+
+nav li a:active {
+		color: #6600CC;
+}
+
+/* Style specifies border, box shadow, and margins for the main element */
+main {
+		
+}
+
+
+/* Style specifies left and right padding for paragraph elements within the main element */
+main p {
+		
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+}
+
+/* Style specifies a background color for the body element */
+body {
+		
+}
+
+/*Style specifies a background color, margin, and padding for footer element*/
+footer {
+		
+		margin-top: -0.2em;
+		padding: 2em;
+		overflow: auto;
+}
+
+
+
+
+
+/*Style for contact class*/
+.contact {
+		
+}
+
+/*Style for table element*/
+table {
+		
+		width: 85%;
+}
+
+/*Style for caption element*/
+caption {
+		font-style: bold;
+}
+
+/*Style rule for form element*/
+form {
+		
+		padding: 1em;
+}
+
+
+
+}/*End desktop media query*/
+
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 20px;
+}

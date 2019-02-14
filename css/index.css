@@ -1,0 +1,170 @@
+/*Matthew Pugel 9/13/2018*/
+/*Base Styles*/
+@import '../_mixins.scss';
+
+/*HTML Styles */
+html {
+	font-size: 18pt;
+	background: url(/images/red_background.jpg);
+}
+
+
+
+/*Body Styles*/
+body {
+    width: 100%;
+    box-shadow: 10px 0px 25px rgba(230, 107, 107, 0.7),
+    -10px 0px 25px rgba(107, 20, 20, 0.7);
+}
+
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Figure styles*/
+figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-width: 25px;
+    border-style: solid;
+}
+
+figure figcaption {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+/*Nav styles*/
+
+ ul  {
+    
+    list-style-type: none;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+   
+
+
+
+  li a {
+   display: inline-block;
+    margin: auto auto;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    width: 50%;
+    background: linear-gradient(325deg, rgb(228, 4, 4) 20%, rgb(0, 0, 0) 60%);
+    border-right: 20px double  rgb(41, 31, 31);
+    border-bottom-right-radius: 80px;
+    box-shadow:  0px 0px -10px 25px rgba(206, 61, 117, 0.7)
+}
+
+
+
+
+/*Main Styles*/
+main{
+    
+    padding: 10px;
+}
+
+main > h2 {
+    color: white;
+    background: black 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+main > p {
+    color: white;
+    text-align: center;
+}
+
+
+/*table styles*/
+
+table {
+    background: white;
+    border: 15px outset rgb(151, 151, 151);
+    border-collapse: collapse;
+    font-family: Arial, Verdana, sans-serif;
+    width: 100%;
+    
+}
+
+table caption {
+    color: white;
+    background: black 30%;
+}
+
+table th, table td {
+    border: 1px solid gray;
+    padding: 5px;
+    vertical-align: top;
+}
+
+table thead tr {
+    height: 25px;
+}
+
+table tbody tr {
+    height: 25px;
+}
+
+table tfoot tr {
+    text-align: center;
+    color: white;
+    background: #000000;
+}
+
+table thead > tr > th:first-of-type {
+    background: black;
+    color: white;
+}
+
+table thead > tr > th:nth-of-type(n+2){
+    background: black;
+    color: white;
+}
+/*Footer Styles*/
+footer {
+    float: left;
+    font-size: 14pt;
+		text-align: center;
+		margin-top: 2em;
+		background-color: #000000;
+        overflow: auto;
+        color: white;
+}
+div.social > a > img  {
+    width: 10%;
+}
+
+/*media query*/
+@includescreen-media($minWidth: 0px, $maxWidth: 768px) {
+
+    body header nav ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-justify-content: center;
+        justify-content: center;
+     }
+     
+     body header nav ul li {
+        -webkit-flex: 0 1 auto;
+        flex: 0 1 auto;
+     }
+  
+    
+}
+

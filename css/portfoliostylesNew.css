@@ -1,0 +1,70 @@
+/*Matthew Pugel 9/13/2018*/
+
+/*Html Styles*/
+html {
+background: url(/images/red_background.jpg) center center/cover no-repeat fixed;
+height: 100%;
+font-family: Verdana, Geneva, sans-serif;
+font-size: 12px;
+}
+
+/*Body Styles*/
+body {
+	border: 3px solid black;
+	box-shadow: 25px, 0px, 35px rgb(53, 21, 0);
+    box-shadow: -25px, 0px, -35px rgb(53, 21, 0);
+}
+
+body > header {
+	float: left;
+	color: black;
+}
+
+body > header > img {
+	width: 50%;
+	
+}
+
+/*Nav Styles */
+nav ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+float: left;
+	border: red solid;
+	margin: 2px auto;
+	width: 24%;
+	text-align: center;
+	background-color: black;
+	font-size: 18pt;
+	
+}
+
+/*Main Styles */
+main {
+	margin: auto;
+	display: block;
+	width: 100%;
+}
+
+main h2 {
+	display: block;
+	text-align: left;
+   font-size: 1.9em;
+   line-height: 0.95;
+   margin: 15px;
+}
+main p {
+
+}
+
+/*Table styles*/
+table {
+    background: white;
+    border: 10px outset rgb(153, 0, 153);
+    border-collapse: collapse;
+    font-size: 0.75em;
+    width: 100%;

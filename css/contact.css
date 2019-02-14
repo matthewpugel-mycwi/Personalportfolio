@@ -1,0 +1,168 @@
+/*Matthew Pugel 9/13/2018*/
+
+/*Base Styles*/
+@import '_mixins.scss';
+
+/*HTML Styles */
+html {
+	font-size: 18pt;
+	
+}
+
+/*Body Styles*/
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+ 
+.form-contact {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-contact .form-contact-heading,
+.form-contact .checkbox {
+  margin-bottom: 10px;
+}
+.form-contact .checkbox {
+  font-weight: normal;
+}
+.form-contact .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-contact .form-control:focus {
+  z-index: 2;
+}
+.form-contact input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+ 
+.form-contact {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-contact .form-contact-heading,
+.form-contact .checkbox {
+  margin-bottom: 10px;
+}
+.form-contact .checkbox {
+  font-weight: normal;
+}
+.form-contact .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-contact .form-control:focus {
+  z-index: 2;
+}
+.form-contact input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/*Nav styles*/
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px 20px;
+    overflow: hidden;
+    background: linear-gradient(325deg, rgb(228, 4, 4) 20%, rgb(0, 0, 0) 90%);
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 20px;
+    text-decoration: none;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;  
+    -o-border-image:
+      -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
+   
+}
+
+nav a:link, a:visited {
+    color: rgb(255, 255, 255);
+}
+nav a:hover, nav a:active {
+    background-size: 100%;
+    color: rgb(244, 130, 130);
+}
+
+/*Main Styles*/
+main{
+    
+    padding: 10px;
+}
+
+
+
+/*Footer Styles*/
+footer {
+    float: left;
+    font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		background-color: #000000;
+        overflow: auto;
+        color: white;
+}
+div.social > a > img  {
+    width: 5%;
+}
+
+
+
+
+/*tablet media query fun stuff */
+@media only screen and (min-width:641px) {
+	body header nav ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-justify-content: center;
+        justify-content: center;
+     }
+     
+     body header nav ul li {
+        -webkit-flex: 0 1 auto;
+        flex: 0 1 auto;
+     }
+  
+    
+}
+

@@ -1,0 +1,13 @@
+Time of completion 4 hours
+
+1st hour
+Was starting out great, feeling like I could figure this out easily
+
+2nd hour
+Started having issues with the site not linking with database, made a thank you page to help with this
+
+3rd hour
+was getting flustered on why the database was not connecting, looking up guides and the ejdesign to see what I was doing wrong
+
+4th hour
+copied the data from example site and the code worked and had no trouble.

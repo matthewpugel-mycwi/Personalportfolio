@@ -1,0 +1,37 @@
+/*Matthew Pugel 9/13/2018*/
+
+/*HTML Styles */
+/* Transition Effects */
+nav a{
+    position: relative;
+    color: white;
+   
+    text-shadow: rgb(235, 126, 126) 1px -1px 1px;
+    transform: scale(1,1) translateY(0px);
+    transition: color 0.5s ease-in 0.5s,
+                font-size 1.2s ease,
+                letter-spacing 1.2s ease-out,
+                text-shadow 1.2s cubic-bezier(0.6, 0, 0.8, 0.5);
+}
+
+nav a:hover {
+    color: rgb(244, 130, 130); ;
+}
+
+nav a::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 0%;
+    height: 8px;
+    background-image: linear-gradient(to right, rgb(231, 19, 19), rgb(56, 35, 20));
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.5s, width 0.5s;
+}
+
+nav a:hover::after {
+    opacity: 1;
+    width: 100%;
+}
